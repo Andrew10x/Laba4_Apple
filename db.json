@@ -170,27 +170,5 @@
       "id": 2,
       "url": "AppleWatch"
     }
-  ],
-  "advertising": [
-    {
-      "name": "Зустрічайте новий iphone 12!",
-      "description": "Передня панель Ceramic Shield, з якою ризик пошкоджень дисплея при падінні в 4 рази нижче. A14 Bionic, найшвидший процесор iPhone. Нічний режим на всіх камерах: ширококутної, надширококутної і камери TrueDepth.",
-      "url": "newIphone12",
-      "image": "img/add/iphone12add.jpg"
-    },
-    {
-      "name": "Apple вітає вас з новим роком!",
-      "description": "З 19 грудня 2020 по 5 січня 2021 року отримай знижку 5% на всі товари Apple.",
-      "url": "newYear",
-      "image": "img/add/NewYear.jpg"
-    },
-    {
-      "name": "Не бійся дощу з Apple Watch!",
-      "description": "Ви можете мити руки, займатися фітнесом та йти під дощем з Apple Watch.",
-      "url": "watchAdd",
-      "image": "img/add/watch.jpg"
-    }
-  ],
-  "orders": [
   ]
 }
