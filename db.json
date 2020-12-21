@@ -1,0 +1,196 @@
+{
+  "products": [
+    {
+      "name": "Мобільний телефон Apple iPhone 12 Pro Max 256 GB Silver",
+      "description": "Екран (6.7'', OLED (Super Retina XDR), 2778x1284) / Apple A14 Bionic / потрійна основна камера: 12 Мп + 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 256 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / Nano-SIM / iOS 14",
+      "url": "iPhone12ProMax256Silver",
+      "price": 47999,
+      "image": "img/iphone/iPhone12ProMax256Silver.jpg",
+      "hit": true,
+      "CategoryId": 0
+    },
+    {
+      "name": "Мобільний телефон Apple iPhone 12 Pro Max 512 GB Graphite",
+      "description": "Екран (6.7'', OLED (Super Retina XDR), 2778x1284) / Apple A14 Bionic / потрійна основна камера: 12 Мп + 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 512 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / Nano-SIM / iOS 14",
+      "url": "iPhone12ProMax512Graphite",
+      "price": 55999,
+      "image": "img/iphone/iPhone12ProMax512Graphite.jpg",
+      "hit": true,
+      "CategoryId": 0
+    },
+    {
+      "name": "Мобільний телефон Apple iPhone 12 mini 256 GB PRODUCT Red",
+      "description": "Екран (5.4'', OLED (Super Retina XDR), 2340х1080) / Apple A14 Bionic / основна подвійна камера: 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 256 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / ГЛОНАСС / Nano-SIM / iOS 14",
+      "url": "iPhone12mini256Red",
+      "price": 33999,
+      "image": "img/iphone/iPhone12mini256Red.jpg",
+      "hit": true,
+      "CategoryId": 0
+    },
+    {
+      "name": "Мобільний телефон Apple iPhone SE 64GB 2020 White",
+      "description": "Екран (4.7'', IPS, 1334x750) / Apple A13 Bionic / основна камера: 12 Мп, фронтальна камера: 7 Мп / 64 ГБ вбудованої пам'яті / 3G / LTE / GPS / Nano-SIM, eSIM / iOS 13",
+      "url": "iPhoneSE64White",
+      "price": 13399,
+      "image": "img/iphone/iPhoneSE64White.png",
+      "hit": false,
+      "CategoryId": 0
+    },
+    {
+      "name": "Мобільний телефон Apple iPhone 8 64GB Gold",
+      "description": "Екран (4.7'', IPS, 1334х750) / Apple A11 Bionic / основна камера: 12 Мп, фронтальна камера: 7 Мп / RAM 2 ГБ / 64 ГБ вбудованої пам'яті / 3G / LTE / GPS / Nano-SIM / iOS 11",
+      "url": "iPhone864Gold",
+      "price": 14599,
+      "image": "img/iphone/iPhone864Gold.jpg",
+      "hit": false,
+      "CategoryId": 0
+    },
+    {
+      "name": "Мобільний телефон Apple iPhone 12 mini 128 GB Green",
+      "description": "Екран (5.4'', OLED (Super Retina XDR), 2340х1080) / Apple A14 Bionic / основна подвійна камера: 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / ГЛОНАСС / Nano-SIM / iOS 14",
+      "url": "iPhone12mini128Green",
+      "price": 29999,
+      "image": "img/iphone/iPhone12mini128Green.jpg",
+      "hit": true,
+      "CategoryId": 0
+    },
+    {
+      "name": "Мобільний телефон Apple iPhone Xs Max 64GB Space Gray",
+      "description": "Екран (6.5'', OLED (Super Retina HD), 2688x1242) / Apple A12 Bionic / основна камера: подвійна 12 Мп, фронтальна камера: 7 Мп / RAM 4 ГБ / 64 ГБ вбудованої пам'яті / 3G / LTE / GPS / Nano-SIM / iOS 12",
+      "url": "iPhoneXsMax64SpaceGray",
+      "price": 23999,
+      "image": "img/iphone/iPhoneXsMax64SpaceGray.jpg",
+      "hit": false,
+      "CategoryId": 0
+    },
+    {
+      "name": "Мобільний телефон Apple iPhone 7 Plus 32GB Gold",
+      "description": "Екран (5.5'', IPS, 1920x1080)/ Apple A10 Fusion/ основна камера: подвійна 12 Мп, фронтальна камера: 7 Мп/ RAM 3 ГБ/ 32 ГБ вбудованої пам'яті/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 10",
+      "url": "iPhone7Plus32Gold",
+      "price": 11999,
+      "image": "img/iphone/iPhone7Plus32Gold.jpg",
+      "hit": false,
+      "CategoryId": 0
+    },
+    {
+      "name": "Планшет Apple iPad Pro 12.9'' Wi-Fi + Cellular 1 TB Silver",
+      "description": "Екран 12.9'' IPS (2732x2048) ємнісний MultiTouch / Apple A12Z Bionic / 1 ТБ вбудованої пам'яті / 3G / 4G / Wi-Fi / Bluetooth 5.0 / основна подвійна камера 12 Мп + 10 Мп, фронтальна — 7 Мп / GPS / ГЛОНАСС / iPadOS / 643 г / сріблястий",
+      "url": "iPadPro1Silver",
+      "price": 61499,
+      "image": "img/ipad/iPadPro1Silver.jpg",
+      "hit": true,
+      "CategoryId": 1
+    },
+    {
+      "name": "Планшет Apple iPad Pro 11'' Wi-Fi 1 TB Silver",
+      "description": "Екран 11'' IPS (2388x1668) ємнісний MultiTouch / Apple A12Z Bionic / 1 ТБ вбудованої пам'яті / Wi-Fi / Bluetooth 5.0 / основна подвійна камера 12 Мп + 10 Мп, фронтальна — 7 Мп / iPadOS / 471 г / сріблястий",
+      "url": "iPadPro111Silver",
+      "price": 48499,
+      "image": "img/ipad/iPadPro111Silver.jpg",
+      "hit": true,
+      "CategoryId": 1
+    },
+    {
+      "name": "Планшет Apple iPad mini 5 Wi-Fi + Cellular 64Gb Space Gray",
+      "description": "Екран 7.9'' Retina (2048x1536) ємнісний MultiTouch / Apple A12 Bionic / RAM 3 ГБ / 64 ГБ вбудованої пам'яті / 3G / 4G / Wi-Fi / Bluetooth 5.0 / основна камера 8 Мп, фронтальна 7 Мп / iOS 12 / 300.5 г / сірий",
+      "url": "iPadmini564SpaceGray",
+      "price": 17499,
+      "image": "img/ipad/iPadmini564SpaceGray.jpg",
+      "hit": false,
+      "CategoryId": 1
+    },
+    {
+      "name": "Планшет Apple iPad Pro 12.9'' Wi-Fi 1TB Silver",
+      "description": "Екран 12.9'' IPS (2732x2048) ємнісний MultiTouch / Apple A12X Bionic / RAM 6 ГБ / 1 ТБ вбудованої пам'яті / Wi-Fi / Bluetooth 5.0 / основна камера 12 Мп, фронтальна — 7 Мп / iOS 12 / 631 г / сріблястий",
+      "url": "iPadPro1291Silver",
+      "price": 39999,
+      "image": "img/ipad/iPadPro1291Silver.jpg",
+      "hit": false,
+      "CategoryId": 1
+    },
+    {
+      "name": "Планшет Apple iPad 10.2'' Wi-Fi + Cellular 32 GB Gold 2020",
+      "description": "Екран 10.2'' IPS (2160x1620) MultiTouch / Apple A12 Bionic (2.49 ГГц) / 32 ГБ вбудованої пам'яті / 3G / 4G / Wi-Fi / Bluetooth 4.2 / основна камера 8 Мп, фронтальна — 1.2 Мп / GPS / ГЛОНАСС / iPadOS 14 / 495 г / золотистий",
+      "url": "iPad10232Gold",
+      "price": 17499,
+      "image": "img/ipad/iPad10232Gold.jpg",
+      "hit": false,
+      "CategoryId": 1
+    },
+    {
+      "name": "Смарт-годинник Apple Watch Series 6 Nike 40mm Silver",
+      "description": "Смарт-годинник Apple Watch Series 6 Nike GPS 40mm Silver Aluminum Case with Pure Platinum/Black Nike Sport Band (M00T3UL/A)",
+      "url": "WatchSeries6NikeSilver",
+      "price": 14699,
+      "image": "img/watch/WatchSeries6NikeSilver.jpg",
+      "hit": true,
+      "CategoryId": 2
+    },
+    {
+      "name": "Смарт-годинник Apple Watch Series 6 GPS 44mm Gold",
+      "description": "Смарт-годинник Apple Watch Series 6 GPS 44mm Gold Aluminium Case with Pink Sand Sport Band (M00E3UL/A)",
+      "url": "WatchSeries6Gold",
+      "price": 15799,
+      "image": "img/watch/WatchSeries6Gold.jpg",
+      "hit": true,
+      "CategoryId": 2
+    },
+    {
+      "name": "Смарт-годинник Apple Watch Series 3 GPS 42mm Space Grey",
+      "description": "Смарт-годинник Apple Watch Series 3 GPS 42 mm Space Grey Aluminium Case with Black Sport Band (MTF32FS/A)",
+      "url": "WatchSeries3Grey",
+      "price": 7299,
+      "image": "img/watch/WatchSeries3Grey.jpg",
+      "hit": false,
+      "CategoryId": 2
+    },
+    {
+      "name": "Смарт-годинник Apple Watch Series 6 GPS 44mm Red",
+      "description": "Смарт-годинник Apple Watch Series 6 GPS 44mm (PRODUCT) Red Aluminium Case with Red Sport Band (M00M3UL/A)",
+      "url": "WatchSeries6Red",
+      "price": 13769,
+      "image": "img/watch/WatchSeries6Red.jpg",
+      "hit": false,
+      "CategoryId": 2
+    }
+  ],
+  "productsCategories": [
+    {
+      "name": "Iphone",
+      "id": 0,
+      "url": "Iphone"
+    },
+    {
+      "name": "Ipad",
+      "id": 1,
+      "url": "Ipad"
+    },
+    {
+      "name": "Apple Watch",
+      "id": 2,
+      "url": "AppleWatch"
+    }
+  ],
+  "advertising": [
+    {
+      "name": "Зустрічайте новий iphone 12!",
+      "description": "Передня панель Ceramic Shield, з якою ризик пошкоджень дисплея при падінні в 4 рази нижче. A14 Bionic, найшвидший процесор iPhone. Нічний режим на всіх камерах: ширококутної, надширококутної і камери TrueDepth.",
+      "url": "newIphone12",
+      "image": "img/add/iphone12add.jpg"
+    },
+    {
+      "name": "Apple вітає вас з новим роком!",
+      "description": "З 19 грудня 2020 по 5 січня 2021 року отримай знижку 5% на всі товари Apple.",
+      "url": "newYear",
+      "image": "img/add/NewYear.jpg"
+    },
+    {
+      "name": "Не бійся дощу з Apple Watch!",
+      "description": "Ви можете мити руки, займатися фітнесом та йти під дощем з Apple Watch.",
+      "url": "watchAdd",
+      "image": "img/add/watch.jpg"
+    }
+  ],
+  "orders": [
+  ]
+}
