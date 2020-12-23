@@ -114,11 +114,6 @@ function change_quantity() {
 function update_bag() {
     if (localStorage.getItem("bag") === null)
         return;
-    update_bag_content();
-}
-
-function update_bag() {
-    if (localStorage.getItem("bag") === null) return;
     let bag = JSON.parse(localStorage.getItem("bag"));
     let count = document.getElementById("count");
     let bagCount = 0;

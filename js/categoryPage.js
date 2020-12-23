@@ -28,7 +28,6 @@ export async function create_category_page(category_name) {
 
             if (products[j].CategoryId === categories[i].id) {
                         content += `
-<<<<<<< HEAD
             <div class="one-pr11">
                 <img src="${products[j].image}" alt="image" />
                 <a href='#products/${products[j].url}'>
@@ -39,15 +38,6 @@ export async function create_category_page(category_name) {
                 <button class="add-but-pr" value="${products[j].url}">Buy</button>
                 </div>
             </div>`;
-=======
-            <a href='#products/${products[j].url}'>
-                <img src="${products[j].image}" alt="image" />
-                <div class="price-buy">
-                <p class="price pr-price">${products[i].price} грн.</p>
-                <button class="add-but-pr" value="products[i].url">Buy</button>
-                </div>
-            </a>`;
->>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
             }
         }
         content += '</div>';
