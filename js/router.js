@@ -32,33 +32,26 @@ function router() {
             create_main_page();
         }
     }
-<<<<<<< HEAD
     else {
         if (splittedHash[0] == '#products') {
             create_product_page(splittedHash[1]);
         }
     }
-=======
->>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
 }
 
 async function click_action(ev) {
     if (ev.target.classList.contains("cartBut")) {
         window.location.hash = '#bag'
     }
-<<<<<<< HEAD
     else if (ev.target.classList.contains("add-but-pr")) {
         add_to_bag(ev.target.value);
     }
-=======
->>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
     else if (ev.target.classList.contains("p-m-but")) {
         change_quantity();
     }
 
 }
 
-<<<<<<< HEAD
 function add_to_bag(pr_url) {
     let bag = [];
     if (localStorage.getItem('bag') == null) {
@@ -93,8 +86,6 @@ function add_to_bag(pr_url) {
     }
 }
 
-=======
->>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
 function change_quantity() {
     let bag = JSON.parse(localStorage.getItem("bag"));
     if (event.target.innerText == "+" || event.target.innerText == "-") {
@@ -107,10 +98,7 @@ function change_quantity() {
         if (event.target.innerText == "+")
             bag[index].count++;
         else {
-<<<<<<< HEAD
             if (bag[index].count > 0)
-=======
->>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
             bag[index].count--;
             if (bag[index].count === 0) {
                 bag.splice(index, 1);
@@ -119,7 +107,6 @@ function change_quantity() {
     }
     localStorage.setItem("bag", JSON.stringify(bag));
     update_bag();
-<<<<<<< HEAD
     if (update_bag_content() == -1)
         window.location.href = '';
 }
@@ -127,13 +114,11 @@ function change_quantity() {
 function update_bag() {
     if (localStorage.getItem("bag") === null)
         return;
-=======
     update_bag_content();
 }
 
 function update_bag() {
     if (localStorage.getItem("bag") === null) return;
->>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
     let bag = JSON.parse(localStorage.getItem("bag"));
     let count = document.getElementById("count");
     let bagCount = 0;
