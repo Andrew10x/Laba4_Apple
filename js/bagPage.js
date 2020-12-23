@@ -2,6 +2,10 @@
 export async function create_bag_page() {
     if (localStorage.getItem('bag') == null)
         return -1;
+<<<<<<< HEAD
+
+=======
+>>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
     //let bag0 = [{
     //    url: 'iPhoneXsMax64SpaceGray',
     //    count: 3
@@ -52,7 +56,11 @@ export async function create_bag_page() {
 
     let bag = JSON.parse(localStorage.getItem('bag'));
     if (bag.length == 0)
+<<<<<<< HEAD
+        window.location.hash = "";
+=======
         return -1;
+>>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
     let sum_price = 0;
     let products = await fetch('https://my-json-server.typicode.com/Andrew10x/Laba4_Apple/products');
     if (products.ok) {
@@ -97,7 +105,14 @@ export async function create_bag_page() {
     wrapper.innerHTML = content;
     return 1;
 }
+<<<<<<< HEAD
+let res;
+export async function update_bag_content() {
+    res = create_bag_page();
+    return res;
+=======
 
 export async function update_bag_content() {
     create_bag_page();
+>>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
 }

@@ -22,7 +22,11 @@
                     <div>${products[i].description}</div>
                     <div class="price-and-button">
                         <p class="one-product-price" >${products[i].price} грн.</p>
+<<<<<<< HEAD
+                        <button class="add-but-pr">Add to bag</button>
+=======
                         <button class="cartBut cartBut1">Add to bag</button>
+>>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
                     </div>
                  </div>
             </div>`;

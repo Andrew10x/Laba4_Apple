@@ -24,6 +24,18 @@ export async function create_catalog_page() {
         for (let j = 0; j < products.length; j++) {
             if (products[j].CategoryId === categories[i].id) {
                 content += `
+<<<<<<< HEAD
+            <div class="one-pr11">
+                <img src="${products[j].image}" alt="image" />
+                <a href='#products/${products[j].url}'>
+                <p>${products[j].name}</p>
+                </a>
+                <div class="price-buy">
+                <p class="price pr-price">${products[j].price} грн.</p>
+                <button class="add-but-pr" value="${products[j].url}">Buy</button>
+                </div>
+            </div>`;
+=======
             <a href='#products/${products[j].url}'>
                 <img src="${products[j].image}" alt="image" />
                 <p>${products[j].name}</p>
@@ -32,6 +44,7 @@ export async function create_catalog_page() {
                 <button class="add-but-pr" value="products[i].url">Buy</button>
                 </div>
             </a>`;
+>>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
             }
         }
         content += '</div>';

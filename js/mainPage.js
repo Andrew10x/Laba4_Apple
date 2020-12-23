@@ -17,6 +17,18 @@ export async function create_main_page() {
     for (let i = 0; i < products.length; i++) {
         if (products[i].hit) {
             content += `
+<<<<<<< HEAD
+            <div class="one-pr11">
+                <img src="${products[i].image}" alt="image" />
+                <a href='#products/${products[i].url}'>
+                <p>${products[i].name}</p>
+                </a>
+                <div class="price-buy">
+                <p class="price pr-price">${products[i].price} грн.</p>
+                <button class="add-but-pr" value="${products[i].url}">Buy</button>
+                </div>
+            </div>`;
+=======
             <a href='#products/${products[i].url}'>
                 <img src="${products[i].image}" alt="image" />
                 <p>${products[i].name}</p>
@@ -25,6 +37,7 @@ export async function create_main_page() {
                 <button class="add-but-pr" value="products[i].url">Buy</button>
                 </div>
             </a>`;
+>>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
         }
     }
 

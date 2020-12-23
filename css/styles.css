@@ -68,6 +68,8 @@ a {
         padding-bottom: 30px;
     }
 
+<<<<<<< HEAD
+=======
     .grid-container a {
         cursor: pointer;
         padding: 0px 10px 0px 10px;
@@ -81,6 +83,7 @@ a {
             box-shadow: 0px 0px 10px black;
         }
 
+>>>>>>> f0eabd1e92d4f15d1175e8aab7f9bdf132d17c60
 h2 {
     margin-top: 50px;
     font-size: 40px;
