@@ -69,7 +69,7 @@ a {
     }
 
 h2 {
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 40px;
 }
 
@@ -300,13 +300,32 @@ ul {
 
     .top-nav a {
         font-size: 20px;
+        margin-left: 40px;
     }
+
+    .logo {
+        display: none;
+    }
+
 }
 
 @media (max-width: 560px) {
     .top-nav {
         display: none;
     }
+    .top-nav a {
+        margin-left: 40px;
+        font-size: 29px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .total-price {
+        display: none;
+    }
+
 
     .static-menu-btn img {
         max-width: 44px;
@@ -383,5 +402,10 @@ ul {
     .ul-show li:not(:first-child) {
         display: block;
         z-index: 6;
+    }
+
+    .totalPrice {
+        padding-left: 12px;
+        font-size: 15px;
     }
 }

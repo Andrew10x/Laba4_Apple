@@ -38,4 +38,6 @@
     wrapper.innerHTML = content;
 }
 
+
+
 //create_product_page('WatchSeries6Red');

@@ -1,4 +1,4 @@
-﻿
+﻿import { update_bag } from "./router.js";
 export async function create_bag_page() {
     if (localStorage.getItem('bag') == null) {
         window.location.hash = '';
@@ -127,4 +127,5 @@ function create_order_page(id) {
     <div class="success-order">Ваше замовлення номер ${id} прийнято. Дякую.</div>`
     const wrapper = document.getElementById('wrapper');
     wrapper.innerHTML = content;
+    update_bag();
 }

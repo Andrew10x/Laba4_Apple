@@ -3,7 +3,8 @@ import { create_bag_page } from "./bagPage.js";
 import { send_order } from "./bagPage.js";
 import { create_main_page } from "./mainPage.js";
 import { create_category_page } from "./categoryPage.js";
-import { create_product_page} from "./productPage.js"
+import { create_product_page } from "./productPage.js";
+import { create_add_page } from "./discountPage.js";
 
 
 
@@ -15,30 +16,50 @@ function router() {
 
     if (splittedHash.length == 1) {
         if (splittedHash[0] == '#catalog') {
+            set_loader();
             create_catalog_page();
         }
         else if (splittedHash[0] == '#bag') {
+            set_loader();
             create_bag_page();
         }
         else if (splittedHash[0] == '') {
+            set_loader();
             create_main_page();
         }
         else {
             window.location.href = href_without_hash;
+            set_loader();
             create_main_page();
         }
     }
     else {
         if (splittedHash[0] == '#products') {
+            set_loader();
             create_product_page(splittedHash[1]);
         }
         else if (splittedHash[0] == '#catalog') {
+            set_loader();
             create_category_page(splittedHash[1]);
         }
+        else if (splittedHash[0] == '#adds') {
+            set_loader();
+            create_add_page(splittedHash[1]);
+        }
         else if (splittedHash[0] != '#order') {
+            set_loader();
             window.location.hash = '';
         }
     }
+}
+
+function set_loader() {
+    window.scrollTo(0, 0);
+    let content = `<div class="loader">
+    <img src="img/logo/apple_logo_PNG19673.png" class="img-loader" alt="image" />                
+    </div>`
+    const wrapper = document.getElementById('wrapper');
+    wrapper.innerHTML = content;
 }
 
 async function click_action(ev) {
@@ -53,7 +74,7 @@ async function click_action(ev) {
         create_bag_page();
     }
     else if (ev.target.classList.contains("buy-but")) {
-        send_order();
+       send_order();
     }
 
 }
@@ -95,18 +116,22 @@ function add_to_bag(pr_url) {
 function change_quantity() {
     let bag = JSON.parse(localStorage.getItem("bag"));
     if (event.target.innerText == "+" || event.target.innerText == "-") {
-        let index;
+        let index = -1;
         for (let i = 0; i < bag.length; i++) {
             if (bag[i].url == event.target.value) {
                 index = i;
             }
         }
+
+        if (index == -1)
+            return;
+
         if (event.target.innerText == "+")
             bag[index].count++;
         else {
             if (bag[index].count > 0)
             bag[index].count--;
-            if (bag[index].count === 0) {
+            if (bag[index].count == 0) {
                 bag.splice(index, 1);
             }
         }
@@ -116,12 +141,19 @@ function change_quantity() {
 }
 
 
-function update_bag() {
-    if (localStorage.getItem("bag") === null)
-        return;
-    let bag = JSON.parse(localStorage.getItem("bag"));
+export function update_bag() {
+
     let count = document.getElementById("count");
     let bagCount = 0;
+
+    if (localStorage.getItem("bag") === null) {
+        count.innerText = "00";
+        let totalPrice = document.getElementById("totalPrice");
+        totalPrice.innerText = '';
+        totalPrice.style.padding = "0";
+        return;
+    }
+    let bag = JSON.parse(localStorage.getItem("bag"));
     for (let i = 0; i < bag.length; i++) {
         bagCount += bag[i].count;
     }

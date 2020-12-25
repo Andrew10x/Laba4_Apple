@@ -3,7 +3,6 @@
 export async function create_category_page(category_name) {
 
     const wrapper = document.getElementById('wrapper');
-    wrapper.innerHTML = '';
     window.scrollTo(0, 0);
 
     let content = "";
