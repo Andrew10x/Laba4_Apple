@@ -1,5 +1,5 @@
 ﻿
-async function create_add_page(page_url) {
+export async function create_add_page(page_url) {
 
     let adds = await fetch('https://my-json-server.typicode.com/Andrew10x/Laba4_Apple_orders/advertising');
     if (adds.ok) {
