@@ -81,7 +81,7 @@ function changeSelectedScrollerBut(clicked) {
     }
     clicked.classList.add("sel-scr-but")
     let list = document.querySelectorAll('.add-list')[0];
-    list.style.transform = "translateX(" + (parseInt(clicked.innerText) * -32.5) + "%)"
+    list.style.transform = "translateX(" + (parseInt(clicked.innerText) * -33.3333) + "%)"
 }
 
 function timeAnim() {

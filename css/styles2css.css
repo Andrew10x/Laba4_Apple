@@ -422,7 +422,7 @@ input:invalid {
     width: 590%;
     transition: all 0.5s ease-in-out;
     margin-left: 14%;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .one-add {
@@ -433,7 +433,6 @@ input:invalid {
     width: 95%;
     align-self: flex-start;
     border-radius: 20px;
-    margin: 20px 0px 10px 0px;
 }
 
 .one-add-text {
